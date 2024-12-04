@@ -15,6 +15,10 @@ body{
   margin-top: 18px;
   margin-left: 150px;
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.AJIOLOGO:hover{
+  transform: scale(1.1);
 }
 
 .main2{
@@ -137,9 +141,22 @@ padding-bottom: 15px;
   83.35%, 100% { left: -500%; }
 }
 
+.slide1image{
+  transition: transform 0.5s ease-in-out;
+}
+.slide1image:hover{
+  transform: scale(1.02);
+}
 
 /* slide 2 */
 
+.slide2image{
+
+  transition: transform 0.5s ease-in-out;
+}
+.slide2image:hover{
+  transform: scale(1.01);
+}
 
 .img-slider2 {
   position: relative;
@@ -189,11 +206,12 @@ padding-bottom: 15px;
 .Poster1image{
   width: 98vw;
   
-
-/* poster 2 */
-
-
+  transition: transform 0.5s ease-in-out;
 }
+.Poster1image:hover{
+  transform: scale(1.01);
+}
+/* poster 2 */
 .Poster2{
   /* border: 2px solid red; */
   width: 98vw;
@@ -203,11 +221,20 @@ padding-bottom: 15px;
   width: 98vw;
   border: 2px solid black;
   margin-left: 5px;
+  transition: transform 0.5s ease-in-out;
+}
+.Poster2image:hover{
+  transform: scale(1.01);
 }
 
 
 /* slide 3 */
-
+.slider3image{
+  transition: transform 0.5s ease-in-out;
+}
+.slider3image:hover{
+  transform: scale(1.02);
+}
 
 .img-slider3 {
   position: relative;
@@ -251,6 +278,10 @@ padding-bottom: 15px;
   width: 98vw;
   border: 2px solid black;
   margin-left: 5px;
+  transition: transform 0.5s ease-in-out;
+}
+.s3Poster1:hover{
+  transform: scale(1.02);
 }
 
 /* slide 4 */
